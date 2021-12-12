@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img-light{
+    background:url("./assets/images/bg-light.webp");
+    background-size: cover;
+    
+}
+.bg-img-dark{
+    background:url("./assets/images/bg-dark.jpg");
+    background-size: cover;
+   
+}
+.min-w-300{
+    min-width: 300px;
+}
+.bg-neutral{
+    background-color: #171717;
+}
